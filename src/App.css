@@ -15,6 +15,7 @@
   min-width: 65% !important;
   width: 65%;
   margin: 0 auto;
+  margin-top: -2rem;
 }
 
 h1,
@@ -57,6 +58,19 @@ p {
   font-size: medium;
 }
 .job {
-  color: dodgerblue;
+  color: rgb(30, 90, 255);
   text-transform: uppercase;
+}
+.fa-arrow-alt-circle-left,
+.fa-arrow-alt-circle-right {
+  color: dodgerblue;
+  margin: 5px;
+}
+
+button {
+  border: none;
+}
+
+button:hover > .svg-inline--fa {
+  color: blue;
 }
