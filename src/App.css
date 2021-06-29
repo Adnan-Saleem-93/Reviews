@@ -72,5 +72,18 @@ button {
 }
 
 button:hover > .svg-inline--fa {
-  color: blue;
+  color: #6d58a6;
+}
+
+.btn-primary {
+  background: none !important;
+  color: dodgerblue !important;
+  font-weight: bolder !important;
+  border: none !important;
+  font-size: small !important;
+}
+
+.btn-primary:hover {
+  background-color: dodgerblue !important;
+  color: white !important;
 }
