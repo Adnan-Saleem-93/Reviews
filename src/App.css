@@ -1,17 +1,10 @@
-/* .App {
-  text-align: center;
-  margin-top: 7.5rem;
-} */
-
 .App {
-  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  /* color: white; */
   min-width: 65% !important;
   width: 65%;
   margin: 0 auto;
@@ -28,11 +21,7 @@ h6 {
 }
 
 .review {
-  /* height: 10rem; */
   width: 80%;
-  /* align-items: center;
-  justify-content: center;
-  display: flex; */
   text-align: center;
   box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
   padding: 1rem;
@@ -43,7 +32,6 @@ h6 {
   justify-content: center;
   display: flex;
   margin-bottom: 2.5rem;
-  /* position: relative; */
 }
 
 img {
